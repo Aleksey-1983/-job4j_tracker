@@ -13,11 +13,8 @@ public class Jukebox {
 
     public static void main(String[] args) {
         Jukebox x = new Jukebox();
-        int song = 0;
-        int song1 = 1;
-        int song2 = 2;
-        x.music(song1);
-        x.music(song2);
-        x.music(song);
+        x.music(1);
+        x.music(2);
+        x.music(3);
     }
 }
