@@ -19,12 +19,16 @@ public class Item {
     public void setName(String name) {
         this.name = name;
     }
+
     public Item() {
     }
+
     public Item(String name) {
     }
+
     public Item(int id, String name) {
     }
+
     public void printInfo() {
         System.out.println(7 + name);
     }
